@@ -146,6 +146,12 @@ a:hover {
     transform: none;
 }
 
+.small-margin {
+    margin-top: 1rem;
+    cursor: default;
+}
+
+
 /* SECTIONS */
 
 section {
@@ -163,6 +169,7 @@ section {
 /* PROFILE SECTION */
 
 #profile {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 5rem;
@@ -210,6 +217,11 @@ section {
 
 .icon {
     cursor: pointer;
+    height: 2rem;
+}
+
+.icon-default-cursor {
+    cursor: default;
     height: 2rem;
 }
 
@@ -429,4 +441,8 @@ footer {
 
 footer p {
     text-align: center;
+}
+
+.my-photo {
+    border-radius: 50rem;
 }

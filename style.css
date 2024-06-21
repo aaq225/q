@@ -328,7 +328,7 @@ section {
 
 /* EXPERIENCE SECTION */
 
-#experience {
+#experience-1, #experience-2 {
     position: relative;
 }
 
@@ -378,8 +378,8 @@ article .icon {
 
 .project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    width: 17rem;
+    height: 17rem;
 }
 
 .project-title {
@@ -428,8 +428,16 @@ article .icon {
     cursor: default;
 }
 
-.email-icon {
+.email-icon{
     height: 2.5rem;
+}
+
+.bigger-icon{
+    height: 3rem;
+}
+
+.bigger-icon{
+    height: 2.7rem;
 }
 
 /* FOOTER SECTION */

@@ -172,6 +172,7 @@ section {
 #profile {
     position: relative;
     display: flex;
+    justify-content: flex-start;
     justify-content: center;
     gap: 5rem;
     height: 80vh;
@@ -297,7 +298,8 @@ section {
 }
 
 .about-pic {
-    border-radius: 2rem;
+    margin-top: 20px;
+    border-radius: 1.5rem; /* Apply a consistent border-radius for styling */
 }
 
 .arrow {
